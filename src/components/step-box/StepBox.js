@@ -11,7 +11,6 @@ function StepBox(props) {
   );
 }
 
-
 StepBox.defaultProps = {
   className: ''
 }
