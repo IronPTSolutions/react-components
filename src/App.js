@@ -1,6 +1,7 @@
 import StepBox from './components/step-box/StepBox';
 import BtnIcon from './components/btn-icon/BtnIcon';
 import IconBox from './components/icon-box/IconBox';
+import Counter from './components/counter/Counter';
 
 import step1 from './assets/images/steps/step-1.png'
 import step2 from './assets/images/steps/step-2.png'
@@ -22,6 +23,9 @@ function App() {
           <IconBox title="Ironhack" image="https://picsum.photos/seed/a/200/300" className="me-1" />
           <IconBox title="Pepe" image="https://picsum.photos/seed/b/200/300" />
         </div>
+
+        <Counter className="my-3" max={10} min={0} />
+        <Counter className="my-3" max={20} min={-10} />
       </div>
     </div>
   );
